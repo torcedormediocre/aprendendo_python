@@ -4,8 +4,8 @@ def verificar_permuta(texto1, texto2) -> bool:
   
   return 0
 
-texto1 = input('Insira a primeira palavra')
-texto2 = input('Agora a segunda palavra')
+texto1 = input('Insira uma palavra: ')
+texto2 = input('Insira uma palavra: ')
 
 if(verificar_permuta(texto1,texto2)):
     print('Uma palavra e permutacao da outra')
